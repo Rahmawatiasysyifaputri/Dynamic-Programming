@@ -34,7 +34,15 @@ public class FibonacciDynamic {
      }
       private static void tampilHasil(int n, BigInteger hasil) {
         System.out.println("Bilangan Fibonacci ke-"+n+" : " + hasil);
-    }    
-}   
+    }  
+     public static void main(String[] args) {
+        
+        String identitas = "Rahmawati Asy syifa' Putri / X RPL 3 / ";
+        tampilJudul(identitas);
+        int n = tampilInput();
+        BigInteger hasil = fibo(n);
+        tampilHasil(n, hasil);
+     }
+}  
 
     
